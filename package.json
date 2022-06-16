@@ -8,9 +8,11 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "dev": "turbo run dev dev:tailwind --parallel",
+    "dev-mobile": "turbo run dev dev:tailwind --filter=api --filter=mobile --parallel",
+    "dev-web": "turbo run dev --filter=api --filter=marketing --filter=web --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint-config-custom": "latest",

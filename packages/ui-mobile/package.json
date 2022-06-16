@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "ui-mobile",
   "version": "0.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -13,6 +13,9 @@
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "react": "^17.0.2",
+    "react-icons": "^4.4.0",
+    "react-native": "^0.68.2",
+    "tailwind-rn": "^4.2.0",
     "tsconfig": "*",
     "typescript": "^4.5.2"
   }
